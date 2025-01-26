@@ -31,4 +31,10 @@ console.log ("Discount Rate", discountRate);
 console.log ("Discount Amount", discountAmount);
 console.log ("Final Price After Discount", finalValue);
 
+//Task 4
+
+let customerName = "James Young"; //name of the customer
+let greeting = `Welcome ${customerName}!`; //welcome's customer
+console.log (greeting)
+
 
