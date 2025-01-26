@@ -1,3 +1,3 @@
 # README File
 
-This is my first committed repo.
+This is Coding Challenge 1
