@@ -37,4 +37,15 @@ let customerName = "James Young"; //name of the customer
 let greeting = `Welcome ${customerName}!`; //welcome's customer
 console.log (greeting)
 
+//Task 5
 
+let isLoggedIn= true; // Logged In Status
+let Robot = false; //Robot Status
+let isGuest = true; // Is a Guest
+
+if (isLoggedIn || isGuest && !Robot) {console.log ("User Allowed");} else {console.log ("Access Unauthorized")}
+// If Logged in or is a Guest, and is not a robot, Output: "User Allowed." If anything else, Ouput: "Access Unauthorized"
+
+
+if (!isLoggedIn) {console.log ("Access Denied: Try Again or Forgot Password");} else {console.log ("Access Granted")} 
+// If Logged in, Ouput: "Access Granted." If anything else, Output: "Access Denied: Try Again or Forgot Password"
