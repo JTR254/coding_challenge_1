@@ -43,7 +43,7 @@ let isLoggedIn= true; // Logged In Status
 let Robot = false; //Robot Status
 let isGuest = true; // Is a Guest
 
-if (isLoggedIn || isGuest && !Robot) {console.log ("User Allowed");} else {console.log ("Access Unauthorized")}
+if ((isLoggedIn || isGuest) && !Robot) {console.log ("User Allowed");} else {console.log ("Access Unauthorized")}
 // If Logged in or is a Guest, and is not a robot, Output: "User Allowed." If anything else, Ouput: "Access Unauthorized"
 
 
